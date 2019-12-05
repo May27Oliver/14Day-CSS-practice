@@ -1,0 +1,70 @@
+#top-line{
+    background: #42474C;
+    
+}
+
+.container{
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.contact-block{
+    float: left;
+    display: flex;
+    color: white;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact-block a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contact-block-number{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 70px;
+}
+
+.contact-block-number i{
+    margin-right: 5px;
+}
+
+.contact-block-email{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 70px;
+}
+
+.contact-block-email i{
+    margin-right: 5px;
+}
+
+.contact-block-address{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 70px;
+}
+
+.contact-block-address i{
+    margin-right: 5px;
+}
+
+/* 社群網站icon */
+.social-media-icons{
+    float: right;
+}
+.social-media-icons ul{
+    display: flex;
+    margin: 0;
+}
+.social-media-icons ul li{
+    list-style: none;
+    color: #25EBFF;
+    line-height: 70px;
+    padding: 0 8px;
+}
